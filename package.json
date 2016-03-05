@@ -1,0 +1,15 @@
+{
+  "name": "@f/sha256",
+  "description": "Compute the SHA256 hash of something",
+  "repository": "git://github.com/micro-js/sha256.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
